@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+}
+main{
+    width: 100vw;
+    height: 100svh;
+    background: conic-gradient(from -90deg at 25% 115%, #ff0000, #ff0066, #ff00cc, #cc00ff, #6600ff, #0000ff, #0000ff, #0000ff, #0000ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    min-width: 50vw;
+    /* height: 35vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(25px);
+    border-radius: 1em;
+    box-shadow: 0px 0px 20px 9px #0000006a;
+}
+.stopwatch{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+.stopwatch p{
+    display: inline;
+    font-size: 7em; 
+    width: 128px;
+}
+
+.stopwatch span{
+    font-size: 5em;
+}
+.btns{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1em;
+}
+.btns button{
+    cursor: pointer;
+    color: #fff;
+    font-size: 2em;
+    padding: 0 20px;
+    border-radius: 0.5em;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.633);
+    box-shadow: 0px 0px 20px 0px #0000006a;
+}
